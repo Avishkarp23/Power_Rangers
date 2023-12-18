@@ -76,7 +76,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/inputoval"
         android:ems="10"
-        android:hint="Emp_type"
+        android:hint="Employee_type"
         android:inputType="text"
         android:paddingHorizontal="10dp"
         android:textColor="@color/white"
