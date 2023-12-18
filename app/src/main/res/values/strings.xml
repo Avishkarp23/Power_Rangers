@@ -2,4 +2,5 @@
     <string name="app_name">Power_Rangers</string>
     <string name="hello_welcome">Hello,Welcome!</string>
     <string name="auth1">Login</string>
+    <string name="auth2">Sign Up</string>
 </resources>
