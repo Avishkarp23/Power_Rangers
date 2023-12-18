@@ -48,8 +48,10 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.01" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
         android:layout_width="350dp"
+        android:textColorHint="@color/black"
         android:layout_height="55dp"
         android:background="@drawable/inputoval"
         android:hint="Username"
@@ -63,9 +65,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.518" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="55dp"
+        android:textColorHint="@color/black"
         android:background="@drawable/inputoval"
         android:hint="Password"
         android:paddingHorizontal="110dp"
