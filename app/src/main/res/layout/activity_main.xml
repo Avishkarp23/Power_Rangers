@@ -26,15 +26,18 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="31dp"
         android:layout_marginBottom="7dp"
+        android:fontFamily="@font/jockey_one"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="12dp"
+        android:textAlignment="center"
+        android:text="@string/hello_welcome"
+
+        android:textColor="@color/white"
+        android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:text="@string/hello_welcome"
-        android:textColor="@color/white"
-        android:paddingHorizontal="50dp"
-        android:paddingVertical="12dp"
-        android:textSize="35sp"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/linearLayoutCompat"
@@ -52,22 +55,28 @@
         <Button
             android:layout_width="350dp"
             android:layout_height="70dp"
+            android:background="@drawable/oval"
+            android:fontFamily="@font/inder"
+            android:onClick="openlogin"
             android:paddingHorizontal="50dp"
             android:text="@string/auth1"
             android:textAllCaps="false"
-            android:onClick="openlogin"
-            android:background="@drawable/oval"
             android:textSize="25sp"></Button>
 
         <Button
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:paddingHorizontal="50dp"
             android:layout_marginVertical="25dp"
-            android:text="@string/auth2"
-            android:textAllCaps="false"
+<<<<<<< HEAD
             android:background="@drawable/oval"
+            android:fontFamily="@font/inder"
             android:onClick="opensignup"
+            android:paddingHorizontal="50dp"
+            android:text="SignUp"
+=======
+            android:text="@string/auth2"
+>>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
+            android:textAllCaps="false"
             android:textSize="25sp"></Button>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
