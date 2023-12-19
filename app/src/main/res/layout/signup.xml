@@ -9,7 +9,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editpassword"
+        android:id="@+id/password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -24,7 +24,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editemail" >
+        app:layout_constraintTop_toBottomOf="@+id/email" >
         <AutoCompleteTextView
             android:layout_width="350dp"
             android:layout_height="60dp"
@@ -40,7 +40,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editemail"
+        android:id="@+id/email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -55,7 +55,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editregionid" >
+        app:layout_constraintTop_toBottomOf="@+id/regionid" >
         <AutoCompleteTextView
             android:layout_width="350dp"
             android:layout_height="60dp"
@@ -74,7 +74,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editregionid"
+        android:id="@+id/regionid"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -89,7 +89,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editemptype" >
+        app:layout_constraintTop_toBottomOf="@+id/emptype" >
         <AutoCompleteTextView
             android:layout_width="350dp"
             android:layout_height="60dp"
@@ -109,7 +109,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editemptype"
+        android:id="@+id/emptype"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -124,7 +124,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editphone" >
+        app:layout_constraintTop_toBottomOf="@+id/phone" >
 
         <AutoCompleteTextView
             android:id="@+id/auto_complete"
@@ -142,7 +142,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editphone"
+        android:id="@+id/phone"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -157,7 +157,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editname" >
+        app:layout_constraintTop_toBottomOf="@+id/name" >
         <AutoCompleteTextView
             android:layout_width="350dp"
             android:layout_height="60dp"
@@ -174,7 +174,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/editname"
+        android:id="@+id/name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
@@ -225,7 +225,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signupp"
         android:layout_width="275dp"
         android:layout_height="70dp"
         android:layout_marginTop="30dp"
@@ -237,7 +237,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editpassword"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/password">
+
+    </Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
