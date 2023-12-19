@@ -70,8 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.518"
-        android:background="@drawable/inputoval"
-        app:layout_constraintTop_toBottomOf="@+id/editemail" >
+        android:background="@drawable/inputoval">
         <AutoCompleteTextView
             android:layout_width="350dp"
             android:layout_height="60dp"
