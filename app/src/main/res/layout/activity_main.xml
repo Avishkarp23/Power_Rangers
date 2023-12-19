@@ -67,11 +67,15 @@
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:layout_marginVertical="25dp"
+<<<<<<< HEAD
             android:background="@drawable/oval"
             android:fontFamily="@font/inder"
             android:onClick="opensignup"
             android:paddingHorizontal="50dp"
             android:text="SignUp"
+=======
+            android:text="@string/auth2"
+>>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
             android:textAllCaps="false"
             android:textSize="25sp"></Button>
 
