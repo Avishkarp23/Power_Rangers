@@ -7,45 +7,76 @@
     android:background="@color/purp_blue"
     tools:context=".ui.auth.signup">
 
-    <com.google.android.material.textfield.TextInputEditText
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editpassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
-        android:textColorHint="@color/black"
         android:layout_height="70dp"
+        android:textColorHint="@color/black"
         android:layout_marginTop="10dp"
-        android:background="@drawable/inputoval"
         android:ems="10"
-        android:hint="Password"
         android:inputType="text"
-        android:paddingHorizontal="10dp"
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editemail" />
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/editemail" >
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:hint="Password"
+            android:inputType="none"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputEditText
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editemail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_marginTop="10dp"
         android:textColorHint="@color/black"
-        android:background="@drawable/inputoval"
+        android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Email-Id"
         android:inputType="text"
-        android:paddingHorizontal="10dp"
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editregionid" />
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/editregionid" >
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:hint="Email-Id"
+            android:inputType="none"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 
     <com.google.android.material.textfield.TextInputEditText
+
+        
+
+
+
         style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
         android:id="@+id/editregionid"
         android:layout_width="350dp"
@@ -56,9 +87,10 @@
         android:ems="10"
         android:hint="Region Id"
         android:inputType="text"
-        android:paddingHorizontal="10dp"
+        android:paddingHorizontal="20dp"
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,39 +98,55 @@
 
 
 
-    <com.google.android.material.textfield.TextInputEditText
-
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editemptype"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="350dp"
         android:layout_height="70dp"
         android:textColorHint="@color/black"
         android:layout_marginTop="10dp"
-        android:background="@drawable/inputoval"
+
         android:ems="10"
-        android:hint="Employee_type"
         android:inputType="text"
-        android:paddingHorizontal="10dp"
+
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editphone" />
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/editphone" >
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:hint="@string/drop"
+            android:inputType="none"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
         android:id="@+id/editphone"
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
-        android:textColorHint="@color/black"
         android:background="@drawable/inputoval"
         android:ems="10"
         android:hint="Phone"
-        android:inputType="text"
-        android:paddingHorizontal="10dp"
+        android:inputType="text|textPhonetic"
+        android:paddingHorizontal="20dp"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,13 +159,13 @@
         android:layout_width="350dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
-        android:textColorHint="@color/black"
         android:background="@drawable/inputoval"
         android:ems="10"
-        android:hint="Username"
-        android:inputType="text"
-        android:paddingHorizontal="10dp"
+        android:hint="Name"
+        android:inputType="text|textPersonName"
+        android:paddingHorizontal="20dp"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
