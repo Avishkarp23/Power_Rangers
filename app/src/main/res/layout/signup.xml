@@ -191,6 +191,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="355dp"
+        android:layout_height="380dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+=======
     <Button
         android:id="@+id/button"
         android:layout_width="275dp"
@@ -201,10 +210,109 @@
         android:text="@string/auth2"
         android:textAllCaps="false"
         android:textSize="25sp"
+>>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82">
+
+        <EditText
+
+            android:id="@+id/editname"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editphone"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Phone"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editemptype"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Emp_type"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editregionid"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Region Id"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Email-Id"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/inputoval"
+            android:ems="10"
+            android:fontFamily="@font/inder"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="@drawable/oval"
+            android:paddingHorizontal="50dp"
+            android:text="Sign Up"
+            android:fontFamily="@font/inder"
+            android:textAllCaps="false"
+            android:textSize="25sp"></Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+=======
         app:layout_constraintTop_toBottomOf="@+id/editpassword"></Button>
+>>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
