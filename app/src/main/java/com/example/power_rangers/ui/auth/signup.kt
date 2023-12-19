@@ -22,10 +22,7 @@ class signup : AppCompatActivity() {
 
         autoComplete.setAdapter(adapter)
 
-        autoComplete.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, i, l ->
-            val itemSelected = adapterView.getItemAtPosition(i)
-            Toast.makeText(this,"Item = $itemSelected",Toast.LENGTH_SHORT).show()
-        }
+
 
     }
 

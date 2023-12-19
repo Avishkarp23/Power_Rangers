@@ -16,7 +16,7 @@
         android:textColorHint="@color/black"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:focusableInTouchMode="true"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editemail" >
         <AutoCompleteTextView
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:background="@drawable/inputoval"
             android:hint="Password"
             android:inputType="none"
@@ -35,7 +35,7 @@
             android:textAlignment="viewStart"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -58,43 +58,53 @@
         app:layout_constraintTop_toBottomOf="@+id/editregionid" >
         <AutoCompleteTextView
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:background="@drawable/inputoval"
             android:hint="Email-Id"
-            android:inputType="none"
+            android:inputType="textEmailAddress"
             android:paddingHorizontal="20dp"
             android:textAlignment="viewStart"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
 
-    <com.google.android.material.textfield.TextInputEditText
-
-        
 
 
-
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editregionid"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
-        android:textColorHint="@color/black"
         android:layout_height="70dp"
+        android:textColorHint="@color/black"
         android:layout_marginTop="10dp"
-        android:background="@drawable/inputoval"
         android:ems="10"
-        android:hint="Region Id"
         android:inputType="text"
-        android:paddingHorizontal="20dp"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editemptype" />
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/editemptype" >
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inputoval"
+            android:hint="Region Id"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
 
 
 
@@ -105,10 +115,8 @@
         android:layout_height="70dp"
         android:textColorHint="@color/black"
         android:layout_marginTop="10dp"
-
         android:ems="10"
         android:inputType="text"
-
         android:textColor="@color/black"
         android:textSize="25sp"
         android:focusableInTouchMode="true"
@@ -121,7 +129,7 @@
         <AutoCompleteTextView
             android:id="@+id/auto_complete"
             android:layout_width="350dp"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:background="@drawable/inputoval"
             android:hint="@string/drop"
             android:inputType="none"
@@ -129,48 +137,73 @@
             android:textAlignment="viewStart"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="25sp" />
-
-
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editphone"
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
-        android:layout_width="350dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/inputoval"
-        android:ems="10"
-        android:hint="Phone"
-        android:inputType="text|textPhonetic"
-        android:paddingHorizontal="20dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editname" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editname"
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editphone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/inputoval"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="text|textPersonName"
-        android:paddingHorizontal="20dp"
-        android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:focusableInTouchMode="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/editname" >
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inputoval"
+            android:hint="Phone"
+            android:inputType="textPhonetic"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editname"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:focusableInTouchMode="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/inputoval"
+        app:layout_constraintTop_toBottomOf="@+id/textView"  >
+        <AutoCompleteTextView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inputoval"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="20dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 
     <TextView
         android:id="@+id/textView"
@@ -185,21 +218,12 @@
         android:text="Create Account Now!"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<<<<<<< HEAD
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/linearLayoutCompat"
-        android:layout_width="355dp"
-        android:layout_height="380dp"
-        android:orientation="vertical"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-=======
     <Button
         android:id="@+id/button"
         android:layout_width="275dp"
@@ -209,110 +233,11 @@
         android:paddingHorizontal="50dp"
         android:text="@string/auth2"
         android:textAllCaps="false"
-        android:textSize="25sp"
->>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82">
-
-        <EditText
-
-            android:id="@+id/editname"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Username"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editphone"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Phone"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editemptype"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Emp_type"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editregionid"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Region Id"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editemail"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Email-Id"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/editpassword"
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/inputoval"
-            android:ems="10"
-            android:fontFamily="@font/inder"
-            android:hint="Password"
-            android:inputType="text"
-            android:paddingHorizontal="10dp"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-
-        <Button
-            android:layout_width="350dp"
-            android:layout_height="70dp"
-            android:background="@drawable/oval"
-            android:paddingHorizontal="50dp"
-            android:text="Sign Up"
-            android:fontFamily="@font/inder"
-            android:textAllCaps="false"
-            android:textSize="25sp"></Button>
-
-
-    </androidx.appcompat.widget.LinearLayoutCompat>
-=======
         app:layout_constraintTop_toBottomOf="@+id/editpassword"></Button>
->>>>>>> a36865c8e81d8cb026ab50aa105c3cd50e480c18
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -56,7 +56,6 @@
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:background="@drawable/oval"
-            android:fontFamily="@font/inder"
             android:onClick="openlogin"
             android:paddingHorizontal="50dp"
             android:text="@string/auth1"
@@ -73,14 +72,9 @@
             android:text="@string/auth2"
             android:textColor="@color/white"
             android:textAllCaps="false"
-
             android:background="@drawable/oval"
-            android:fontFamily="@font/inder"
             android:onClick="opensignup"
             android:paddingHorizontal="50dp"
-            android:text="SignUp"
-            android:text="@string/auth2"
-            android:textAllCaps="false"
             android:textSize="25sp"></Button>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
