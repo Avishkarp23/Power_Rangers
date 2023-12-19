@@ -15,10 +15,23 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="139dp"
-        android:layout_height="121dp"
+        android:layout_width="187dp"
+        android:layout_height="179dp"
         android:baselineAlignBottom="true"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViiew"
+        android:layout_width="223dp"
+        android:layout_height="220dp"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/l2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -41,6 +54,27 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/white"
         android:textSize="35sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/jockey_one"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="12dp"
+        android:text="Vegetation measurementm along the line corridor using satellite imagery"
+        android:textAlignment="center"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="15sp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
