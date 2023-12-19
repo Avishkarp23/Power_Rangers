@@ -9,7 +9,7 @@ import com.example.power_rangers.R
 class firstpage : AppCompatActivity() {
 
     // Delay time for the splash screen in milliseconds
-    private val SPLASH_DELAY: Long = 4000
+    private val SPLASH_DELAY: Long = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
