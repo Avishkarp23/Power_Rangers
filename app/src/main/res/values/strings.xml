@@ -4,6 +4,11 @@
     <string name="auth1">Login</string>
     <string name="auth2">Sign Up</string>
     <string name="drop">Employee Type</string>
+<<<<<<< HEAD
+</resources>
+
+=======
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
+>>>>>>> 1c492c5b43e9ad8038aebc1dde01472d4ca4a4eb
